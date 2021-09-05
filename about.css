@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #252525;
+	font-family: Montserrat, sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0;
+	padding-top: 2.5rem;
+}
+
+h3 {
+	margin: 10px 0;
+}
+
+h6 {
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.card-container {
+	background-color: #252525;
+	border-radius: 5px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	color: #e8e9eb;
+	padding-top: 40px;
+	position: relative;
+	width: 350px;
+	max-width: 100%;
+	text-align: center;
+}
+
+
+.card-container .round {
+	border: 1px solid #00f0ff;
+	border-radius: 50%;
+	padding: 7px;
+}
+
+.button .primary {
+	background-color: transparent;
+	color: #e8e9eb;
+	border-radius: 5px;
+	font-family: Montserrat, sans-serif;
+	padding: 4px 8px;
+	text-decoration: none;
+	border-style: groove;
+	border-color: #00f0ff;
+	margin: 1em;
+}
+	
+
+.button .secondary {
+	background-color: transparent;
+	color: #e8e9eb;
+	border-radius: 5px;
+	font-family: Montserrat, sans-serif;
+	padding: 4px 8px;
+	text-decoration: none;
+	border-style: groove;
+	border-color: #00f0ff;
+}
+
+.skills {
+	background-color: #1f1f1f;
+	text-align: left;
+	padding: 12.5px;
+	margin-top: 28px;
+}
+
+.skills ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.skills ul li {
+	border: 1px solid #00f0ff;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 7px 7px 0;
+	padding: 7px;
+}
+
+.btn{
+	background-color: #1f1f1f;
+	color: rgb(255, 255, 255);
+  	border: 1px solid #00f0ff;
+	text-decoration: none;
+	font-size: medium;
+	border-radius: 5px;
+	font-family: Montserrat, sans-serif;
+	padding: 4px 8px;
+}
+
+.btn {
+	transition-duration: 0.4s;
+  }
+  
+  .btn:hover {
+	background-color: #4d4d4d;
+	color: white;
+  }

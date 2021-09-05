@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+	font-size: 12px;
+  	font-family: 'Montserrat', sans-serif;
+  	font-weight: 600;
+	background: #000000;
+	margin: 0;
+	overflow: hidden;
+}
+
+nav {
+	padding: 0.1rem;
+	margin: 0px auto 0;
+	position: fixed;
+  	align-items: left;
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+	border-radius: 8px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: #00f0ff;
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color: #252525;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #252525;
+}
+nav .start-contact, a:nth-child(3):hover~.animation {
+	width: 120px;
+	left: 200px;
+	background-color: #252525;
+}
+
+
+.donate{
+	position: fixed;
+	text-decoration: none;
+	color: #00f0ff;
+	font-size: x-large;
+	top: 290px;
+	left: 100px;
+	padding: 0.5rem 1rem 0.5rem 0.5rem;
+	border: 2px solid #00f0ff;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.donate {
+	transition-duration: 0.5s;
+  }
+  
+  .donate:hover {
+	background-color: #252525;
+	color: #00f0ff;
+  }
